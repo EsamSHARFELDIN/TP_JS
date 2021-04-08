@@ -19,13 +19,17 @@ module.exports = {
   devtool : (PRODUCTION ? undefined : 'eval-source-map'),
 
   devServer: {
-      static: {
-	       publicPath: path.resolve(__dirname, 'dist'),
-	       watch : true
-      },
-      host : 'localhost',
-      port : 9000,
-      open : 'firefox'
+
+    static: {
+         publicPath: path.resolve(__dirname, 'dist'),
+         watch : true
+    },
+    host : 'localhost',
+    port : 9000,
+    open : {
+            target: ['/'],
+            app : ['firefox']
+           }
   },
 
   module: {
