@@ -357,3 +357,4 @@ $RECYCLE.BIN/
 
 # Others
 dist/ 
+package-lock.json
