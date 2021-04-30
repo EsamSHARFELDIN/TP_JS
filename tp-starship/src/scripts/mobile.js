@@ -45,6 +45,5 @@ export default class Mobile {
     move(canvas) {
       this.x += this.deltaX;
       this.y += this.deltaY;
-      return false;
     }
   }

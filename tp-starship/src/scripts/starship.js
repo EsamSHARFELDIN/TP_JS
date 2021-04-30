@@ -56,7 +56,6 @@ export default class Starship extends Mobile {
         super.move(canvas);
       }
     }
-    return false;
   }
   
   fire() {
