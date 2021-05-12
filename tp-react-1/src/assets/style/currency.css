@@ -1,0 +1,7 @@
+div.currency {
+  width : 100px;
+  padding : 10px;
+  margin : 10px auto;
+  background-color : white;
+  text-align : right;
+}

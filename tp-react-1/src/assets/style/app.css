@@ -1,0 +1,16 @@
+div.app {
+  text-align : center;
+  width : 180px;
+  background-color : #666;
+  padding : 10px;
+}
+
+div.app input{
+  width : 80px;
+  text-align : right;
+  margin : auto;
+ }
+
+ div.app button{
+   margin-left : 15px;
+  }
