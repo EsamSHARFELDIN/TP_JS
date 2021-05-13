@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 
 // import ReactJs components
-import App from '../components/imageApp.jsx';
+import App from '../components/convertAppV2.jsx';
 
 /*
 * create React root element and insert it into document
