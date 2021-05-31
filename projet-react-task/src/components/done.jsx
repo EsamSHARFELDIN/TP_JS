@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes, { array, bool } from 'prop-types';
 
 import DoneTask from './doneTask.jsx';
 
@@ -36,5 +37,9 @@ export default class Done extends React.Component {
                 {doneTaskComponentsList}
             </div>
         );
+    }
+
+    static propTypes = {
+        doneList: array.isRequired
     }
 }
