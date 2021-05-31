@@ -40,6 +40,6 @@ export default class Done extends React.Component {
     }
 
     static propTypes = {
-        doneList: array.isRequired
+        doneList: PropTypes.array.isRequired
     }
 }
