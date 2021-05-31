@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import '../assets/style/addtask.css';
 
@@ -37,5 +38,9 @@ export default class AddTask extends React.Component {
                 </button>
             </div>
         );
+    }
+
+    static propTypes =  {
+        addTask: PropTypes.func.isRequired
     }
 }
