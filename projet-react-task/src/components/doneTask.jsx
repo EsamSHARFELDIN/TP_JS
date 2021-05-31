@@ -7,8 +7,8 @@ export default class DoneTask extends React.Component {
 
     render() {
         return (
-            <div className="doneTask">
-                {`${this.props.description} (${this.props.duration} mn) (priorité : ${this.props.priority})`}
+            <div className="task done">
+                <div className="info">{`${this.props.description} (${this.props.duration} mn) (priorité : ${this.props.priority})`}</div>
             </div>
         );
     }

@@ -1,6 +1,6 @@
 div.addTask input[type="number"] {
   text-align : right;
-  width : 50px;
+  width : 70px;
 }
 div.addTask input[type="text"] {
   width : 200px;
