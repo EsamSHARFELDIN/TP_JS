@@ -1,9 +1,9 @@
-div.scale {
+div.priorityScale {
   background-color : white;
   padding : 1px;
 }
 
-div.scale div {
+div.priorityScale div {
   font-size : 10px;
   display : inline-flex;
   vertical-align: middle;
