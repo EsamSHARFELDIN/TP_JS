@@ -26,7 +26,7 @@ export default class PriorityLevel extends React.Component {
 
     static propTypes = {
         on: PropTypes.bool.isRequired,
-        key: PropTypes.number.isRequired,
+        //key: PropTypes.number.isRequired,
         level: PropTypes.number.isRequired,
         taskId: PropTypes.string.isRequired,
         changePriority: PropTypes.func.isRequired,
