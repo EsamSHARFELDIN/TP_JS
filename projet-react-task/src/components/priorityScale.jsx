@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import PriorityLevel from './priorityLevel.jsx';
 
@@ -27,5 +28,11 @@ export default class PriorityScale extends React.Component {
                 <span>({this.props.priority})</span>
             </div>
         );
+    }
+
+    static propTypes = {
+        priority: PropTypes.number.isRequired,
+        taskId: PropTypes.string.isRequired,
+        changePriority: PropTypes.func.isRequired,
     }
 }

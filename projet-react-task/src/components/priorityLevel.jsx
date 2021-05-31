@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import '../assets/style/priorityLevel.css';
 
@@ -21,5 +22,13 @@ export default class PriorityLevel extends React.Component {
             >
             </div>
         );
+    }
+
+    static propTypes = {
+        on: PropTypes.bool.isRequired,
+        key: PropTypes.number.isRequired,
+        level: PropTypes.number.isRequired,
+        taskId: PropTypes.string.isRequired,
+        changePriority: PropTypes.func.isRequired,
     }
 }

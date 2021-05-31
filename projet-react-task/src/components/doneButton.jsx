@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import '../assets/style/doneButton.css';
 
@@ -18,5 +19,10 @@ export default class DoneButton extends React.Component {
                 &#x2713;
             </div>
         );
+    }
+
+    static propTypes = {
+        taskId: PropTypes.string.isRequired,
+        makeTaskDone: PropTypes.func.isRequired
     }
 }
