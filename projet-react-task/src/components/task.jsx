@@ -33,7 +33,6 @@ export default class Task extends React.Component {
         description: PropTypes.string.isRequired,
         duration: PropTypes.number.isRequired,
         priority: PropTypes.number.isRequired,
-        //key: PropTypes.string.isRequired,
         changePriority: PropTypes.func.isRequired,
         makeTaskDone: PropTypes.func.isRequired
     }
